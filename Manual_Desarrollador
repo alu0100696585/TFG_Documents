@@ -1,0 +1,26 @@
+Scripts
+
+Las scripts que compondrán las funcionalidades de nuestro proyecto son:
+	Globals.cs: Se ocupa únicamente de la creación del espacio de nombres Globals.
+
+	PlatformController.cs: Funciones y otras utilidades variadas, que se emplean para saber la entrada que se está usando en cada momento. (Pulsar en pantalla o ratón).
+
+	SwapScene.cs: El encargado de controlar el cambio de las escenas del juego.
+
+	DataBaseManager.cs: Clase que se ocupa del acceso y gestión de la base de datos. Posee funciones para la consulta de la misma, para la modificación de valores, para añadir nuevos registros y las correspondientes a abrir y cerrar la base de datos.
+
+	AnimatorController.cs: Clase que se encarga de activar las animaciones cuando se produzca el evento correspondiente.
+
+	AssignmentObjects.cs: Se ocupa de que se asignen correctamente los alimentos a la comida del día que se ha seleccionado.
+
+	ControllerFoodSelectorScene.cs: Consiste simplemente en la inicialización de la escena del selector de comidas.
+
+	ControllerMixScene.cs: Consiste simplemente en la inicialización de la escena de mezcla de alimentos.
+
+	DragItems.cs: Clase encargada de gestionar si el objeto a la que está asignada está siendo arrastrado o no.
+
+	MixItems.cs: Clase que se encarga de según los dos objetos seleccionados se cree el nuevo objeto resultante de los mismos, comprobando a su vez que no están ya en nuestra base de datos.
+
+	Slot.cs: Clase que se asignará a un elemento recogedor, es decir, que se encarga de recibir el evento onDrop que es donde soltamos el objeto que estábamos arrastrando.
+
+
